@@ -1,0 +1,6 @@
+c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojecttt\bin\aspprojecttt.dll.config
+c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojecttt\bin\aspprojecttt.dll
+c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojecttt\bin\aspprojecttt.pdb
+c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojecttt\obj\Debug\aspprojecttt.csprojResolveAssemblyReference.cache
+c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojecttt\obj\Debug\aspprojecttt.dll
+c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojecttt\obj\Debug\aspprojecttt.pdb

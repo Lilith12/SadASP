@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Księgarnia</title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" method="post">
+        <div>
+    <ul class="szukajka">
+                <li><img src="logoKsiegarnia.png"  height="50" width="125"/></li>
+                <li><a href="Login.aspx"<>Logowanie</a></li>
+                <li><a href="Register.aspx"<>Rejestracja</a></li>
+            </ul>
+            <div id="header">Naglowek</div>
+            <div id="menu">
+                <asp:Menu ID="Menu1" Orientation="Horizontal" runat="server" DataSourceID="SiteMapDataSource1" DynamicEnableDefaultPopOutImage="False" StaticEnableDefaultPopOutImage="False">
+                    <DynamicMenuItemStyle CssClass="button1" />
+                    <StaticHoverStyle CssClass="button1" />
+                    <StaticMenuItemStyle CssClass="button1" />
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="false" />
+            </div>
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+﻿body {
+width: 900px;
+font-family: Arial;
+font: 12px Arial;
+color: #000030;
+background-color:white;
+margin: 0px,0px,0px,0px;
+}
+
+.szukajka {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    list-style-type: none;
+}
+.szukajka li{
+    float: left;
+    padding-right: 2px;
+}
+
+.szukajka a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    padding: 20px 30px;
+    text-decoration: none !important;
+}
+.szukajka a:hover:not(.active) {
+    background-color: #DEDEDE;
+}
+
+.active{
+    background-color: #DEDEDE;
+}
+
+#menu{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    float:left;
+    background-color: white;
+    margin-left: 35%;
+    margin-right: 4px;
+    margin-bottom: 4px;
+
+}
+
+
+#content{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-color: #C4C4C4;
+    margin-left: 35%;
+    margin-bottom: 4px;
+}
+.button1 {
+    background-color: white;
+    text-align: center;
+    color: black;
+    padding: 10px 30px;
+    width: 180px;
+    margin-right: 5px;
+    border-bottom: 4px solid #008CBA !important;
+    border: 2px solid #008CBA ;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.menuEl{
+    margin-bottom: 4px;
+}
