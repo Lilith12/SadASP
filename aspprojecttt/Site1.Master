@@ -16,11 +16,12 @@
                 <li><img src="logoKsiegarnia.png"  height="50" width="125"/></li>
                 <li><a href="Login.aspx"<>Logowanie</a></li>
                 <li><a href="Register.aspx"<>Rejestracja</a></li>
+                <li><a href="#"<><span class="glyphicon glyphicon-shopping-cart"></span> Koszyk</a></li>
             </ul>
             <div id="header">Naglowek</div>
             <div id="menu">
                 <asp:Menu ID="Menu1" Orientation="Horizontal" runat="server" DataSourceID="SiteMapDataSource1" DynamicEnableDefaultPopOutImage="False" StaticEnableDefaultPopOutImage="False">
-                    <DynamicMenuItemStyle CssClass="button1" />
+                    <DynamicMenuItemStyle CssClass="button2" />
                     <StaticHoverStyle CssClass="button1" />
                     <StaticMenuItemStyle CssClass="button1" />
                 </asp:Menu>

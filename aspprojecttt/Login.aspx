@@ -8,6 +8,7 @@
                 <li><img src="logoKsiegarnia.png"  height="50" width="125"/></li>
                 <li><a class="active" href="Login.aspx"<>Logowanie</a></li>
                 <li><a href="Register.aspx"<>Rejestracja</a></li>
+                <li><a href="#"<><span class="glyphicon glyphicon-shopping-cart"></span> Koszyk</a></li>
             </ul>
         <table>
             <tr>
@@ -38,5 +39,5 @@
             </tr>
         </table>
     </div>
-    <asp:Button ID="LoginButton" runat="server" Text="Zaloguj" OnClick="loginUser" />
+    <asp:Button CssClass="formButton" ID="LoginButton" runat="server" Text="Zaloguj" OnClick="loginUser" />
 </asp:Content>

@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Fantasy.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Login.aspx" />
     <Content Include="logoKsiegarnia.png" />
     <Content Include="Register.aspx" />
@@ -64,8 +66,16 @@
     <Content Include="TestForm.aspx" />
     <Content Include="Users.xml" />
     <Content Include="Web.config" />
+    <Content Include="list.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fantasy.aspx.cs">
+      <DependentUpon>Fantasy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fantasy.aspx.designer.cs">
+      <DependentUpon>Fantasy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -99,6 +109,10 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Site1.Master" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

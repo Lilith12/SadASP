@@ -7,6 +7,7 @@
                 <li><img src="logoKsiegarnia.png"  height="50" width="125"/></li>
                 <li><a href="Login.aspx"<>Logowanie</a></li>
                 <li><a class="active" href="Register.aspx"<>Rejestracja</a></li>
+                <li><a href="#"<><span class="glyphicon glyphicon-shopping-cart"></span> Koszyk</a></li>
             </ul>
     <table>
         <tr>
@@ -75,5 +76,5 @@
             </td>
         </tr>
     </table>
-    <asp:Button ID="RegisterButton" runat="server" Text="Zarejestruj" OnClick="registerUser" />
+    <asp:Button CssClass="formButton" ID="RegisterButton" runat="server" Text="Zarejestruj" OnClick="registerUser" />
 </asp:Content>

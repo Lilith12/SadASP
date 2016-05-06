@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<listaKsiazek>
+  <ksiazka ID="0">
+    <tytul>Władca Pierścieni: Dwie Wieże</tytul>
+    <gatunek>Fantasy</gatunek>
+    <cena>30,99</cena>
+    <autorzy>
+      <autor>Tolkien J.R.R.</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="1">
+    <tytul>AHA! NEU</tytul>
+    <gatunek>Podręcznik</gatunek>
+    <cena>41,99</cena>
+    <autorzy>
+      <autor>Potapowicz Anna</autor>
+      <autor>Tkaczyk Krzysztof</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="2">
+    <tytul>Steve Jobs człowiek który myślał inaczej</tytul>
+    <gatunek>Biografie</gatunek>
+    <cena>32,99</cena>
+    <autorzy>
+      <autor>Blumenthal Karen</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="3">
+    <tytul>Polowanie</tytul>
+    <gatunek>Kryminał i Sensacja</gatunek>
+    <cena>30,59</cena>
+    <autorzy>
+      <autor>Paprocki Jacek</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="4">
+    <tytul>Wiersze wybrane</tytul>
+    <gatunek>Poezja</gatunek>
+    <cena>45,79</cena>
+    <autorzy>
+      <autor>Szymborska Wisława</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="5">
+    <tytul>Taniec ze smokami Tom 1</tytul>
+    <gatunek>Fantastyka</gatunek>
+    <cena>46,59</cena>
+    <autorzy>
+      <autor>Martin George R.R.</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="6">
+    <tytul>Taniec ze smokami Tom 2</tytul>
+    <gatunek>Fantastyka</gatunek>
+    <cena>46,59</cena>
+    <autorzy>
+      <autor>Martin George R.R.</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="7">
+    <tytul>Elvis. Człowiek, którego nigdy nie zapomnisz</tytul>
+    <gatunek>Biografie</gatunek>
+    <cena>26,79</cena>
+    <autorzy>
+      <autor>Ogiegło Mariusz</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="8">
+    <tytul>Czas równoległy </tytul>
+    <gatunek>Poezja</gatunek>
+    <cena>18,23</cena>
+    <autorzy>
+      <autor>Mikłaszewicz Zdzisław</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="9">
+    <tytul>Pustułka</tytul>
+    <gatunek>Kryminał i Sensacja</gatunek>
+    <cena>30,59</cena>
+    <autorzy>
+      <autor>Miszczuk Katarzyna Berenika</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="10">
+    <tytul>Prawo administracyjne Podręcznik</tytul>
+    <gatunek>Podręczniki</gatunek>
+    <cena>21,97</cena>
+    <autorzy>
+      <autor>Legierska Urszula</autor>
+    </autorzy>
+  </ksiazka>
+  <ksiazka ID="11">
+    <tytul>Necrosis. Przebudzenie</tytul>
+    <gatunek>Fantasy</gatunek>
+    <cena>30,59</cena>
+    <autorzy>
+      <autor>Jacek Piekara</autor>
+      <autor>Damian Kucharski</autor>
+    </autorzy>
+  </ksiazka>
+</listaKsiazek>
