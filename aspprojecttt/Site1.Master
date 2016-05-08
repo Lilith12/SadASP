@@ -16,7 +16,7 @@
                 <li><img src="logoKsiegarnia.png"  height="50" width="125"/></li>
                 <li><a href="Login.aspx"<>Logowanie</a></li>
                 <li><a href="Register.aspx"<>Rejestracja</a></li>
-                <li><a href="#"<><span class="glyphicon glyphicon-shopping-cart"></span> Koszyk</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span><span id="cartInfoSpan" runat="server">Koszyk</span></a></li>
             </ul>
             <div id="header">Naglowek</div>
             <div id="menu">

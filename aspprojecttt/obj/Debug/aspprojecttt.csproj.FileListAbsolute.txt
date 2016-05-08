@@ -4,3 +4,9 @@ c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojec
 c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojecttt\obj\Debug\aspprojecttt.csprojResolveAssemblyReference.cache
 c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojecttt\obj\Debug\aspprojecttt.dll
 c:\users\aleksandra\documents\visual studio 2013\Projects\aspprojecttt\aspprojecttt\obj\Debug\aspprojecttt.pdb
+C:\Users\honzik\Documents\SadASP\aspprojecttt\bin\aspprojecttt.dll.config
+C:\Users\honzik\Documents\SadASP\aspprojecttt\bin\aspprojecttt.dll
+C:\Users\honzik\Documents\SadASP\aspprojecttt\bin\aspprojecttt.pdb
+C:\Users\honzik\Documents\SadASP\aspprojecttt\obj\Debug\aspprojecttt.csprojResolveAssemblyReference.cache
+C:\Users\honzik\Documents\SadASP\aspprojecttt\obj\Debug\aspprojecttt.dll
+C:\Users\honzik\Documents\SadASP\aspprojecttt\obj\Debug\aspprojecttt.pdb

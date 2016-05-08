@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Books>
+  <Book Category="Cat1" Id="1">
+    <Image>http://emp0pwn0cdn0blob0prod.static-osdw.pl/images/106421307o</Image>
+    <Title>Jak ocenić dojrzałość </Title>
+    <Authors>
+      <Author>Blythe Sally </Author>
+    </Authors>
+    <Price>28,47</Price>
+  </Book>
+  <Book Category="Cat1" Id="2">
+    <Image>http://emp0pwn0cdn0blob0prod.static-osdw.pl/images/120916560o</Image>
+    <Title>Psychologia penitencjarna</Title>
+    <Authors>
+      <Author>Mieczylaw Ciosek</Author>
+      <Author>Beata Pastwa-Wojciechowska</Author>
+    </Authors>
+    <Price>59,92</Price>
+  </Book>
+  <Book Category="Cat1" Id="3">
+    <Image>http://emp0pwn0cdn0blob0prod.static-osdw.pl/images/403341312o</Image>
+    <Title>Uniwersytet w dobie przemian</Title>
+    <Authors>
+      <Author>Marek Kwiek</Author>
+      <Author>Anna Kwiek</Author>
+    </Authors>
+    <Price>55,92</Price>
+  </Book>
+  <Book Category="Cat1" Id="4">
+    <Image>http://emp0pwn0cdn0blob0prod.static-osdw.pl/images/106020022o</Image>
+    <Title>Psychologia Kluczowe koncepcje</Title>
+    <Authors>
+      <Author>Zimbardo Philip </Author>
+      <Author>G., Vivian McCann</Author>
+    </Authors>
+    <Price>31,92</Price>
+  </Book>
+  <Book Category="Cat1" Id="5">
+    <Image>http://emp0pwn0cdn0blob0prod.static-osdw.pl/images/105349559o</Image>
+    <Title>Metodologia badań</Title>
+    <Price>55,92</Price>
+    <Authors>
+      <Author>Jerzy Brzeziński</Author>
+    </Authors>
+  </Book>
+</Books>

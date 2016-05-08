@@ -4,7 +4,7 @@
     <siteMapNode url="TestForm.aspx" title="Strona główna"  description="">
     </siteMapNode>
     <siteMapNode url="ToDo.aspx" title="Kategorie"  description="">
-      <siteMapNode url="" title="Kat1"  description="" />
+      <siteMapNode url="Browse.aspx?cat=Cat1" title="Kat1"  description="" />
       <siteMapNode url="" title="Kat2"  description="" />
       <siteMapNode url="" title="Kat3"  description="" />
     </siteMapNode>
