@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AllBooks.aspx" />
     <Content Include="Book.aspx" />
     <Content Include="Books.xml" />
     <Content Include="Browse.aspx" />
@@ -73,6 +74,13 @@
     <Content Include="list.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AllBooks.aspx.cs">
+      <DependentUpon>AllBooks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllBooks.aspx.designer.cs">
+      <DependentUpon>AllBooks.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Book.aspx.cs">
       <DependentUpon>Book.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

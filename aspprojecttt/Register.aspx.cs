@@ -72,28 +72,28 @@ namespace WebApplication1 {
                     users.Columns.Add(surnameColumn);
 
                     DataColumn streetColumn = new DataColumn();
-                    surnameColumn.DataType = System.Type.GetType("System.String");
-                    surnameColumn.ColumnName = "UserStreet";
+                    streetColumn.DataType = System.Type.GetType("System.String");
+                    streetColumn.ColumnName = "UserStreet";
                     users.Columns.Add(streetColumn);
 
                     DataColumn addressColumn = new DataColumn();
-                    surnameColumn.DataType = System.Type.GetType("System.String");
-                    surnameColumn.ColumnName = "UserAddress";
+                    addressColumn.DataType = System.Type.GetType("System.String");
+                    addressColumn.ColumnName = "UserAddress";
                     users.Columns.Add(addressColumn);
 
                     DataColumn postalCodeColumn = new DataColumn();
-                    surnameColumn.DataType = System.Type.GetType("System.String");
-                    surnameColumn.ColumnName = "UserPostalCode";
+                    postalCodeColumn.DataType = System.Type.GetType("System.String");
+                    postalCodeColumn.ColumnName = "UserPostalCode";
                     users.Columns.Add(postalCodeColumn);
 
                     DataColumn cityColumn = new DataColumn();
-                    surnameColumn.DataType = System.Type.GetType("System.String");
-                    surnameColumn.ColumnName = "UserCity";
+                    cityColumn.DataType = System.Type.GetType("System.String");
+                    cityColumn.ColumnName = "UserCity";
                     users.Columns.Add(cityColumn);
 
                     DataColumn phoneColumn = new DataColumn();
-                    surnameColumn.DataType = System.Type.GetType("System.String");
-                    surnameColumn.ColumnName = "UserPhone";
+                    phoneColumn.DataType = System.Type.GetType("System.String");
+                    phoneColumn.ColumnName = "UserPhone";
                     users.Columns.Add(phoneColumn);
 
                     ds.Tables.Add(users);
