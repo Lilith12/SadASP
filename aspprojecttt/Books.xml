@@ -43,4 +43,103 @@
       <Author>Jerzy Brzeziński</Author>
     </Authors>
   </Book>
+  <Book Category="Cat2" Id="6">
+    <Image>http://i-ksiazka.pl/foto/pelne/0/566.jpg</Image>
+    <Title>Władca Pierścieni: Dwie Wieże</Title>
+    <Authors>
+      <Author>Tolkien J.R.R.</Author>
+    </Authors>
+    <Price>30,99</Price>
+  </Book>
+  <Book Category="Cat3" Id="7">
+    <Image>http://selkar.pl/img/product_media/538001-539000/1074507173.jpg</Image>
+    <Title>AHA! NEU</Title>
+    <Authors>
+      <Author>Potapowicz Anna</Author>
+      <Author>Tkaczyk Krzysztof</Author>
+    </Authors>
+    <Price>41,99</Price>
+  </Book>
+  <Book Category="Cat4" Id="8">
+    <Image>http://selkar.pl/img/imagecache/537001-538000/500x785_product_media_537001-538000_1074487851.jpg</Image>
+    <Title>Steve Jobs człowiek który myślał inaczej</Title>
+    <Authors>
+      <Author>Blumenthal Karen</Author>
+    </Authors>
+    <Price>32,99</Price>
+  </Book>
+  <Book Category="Cat5" Id="9">
+    <Image>http://selkar.pl/img/imagecache/532001-533000/500x739_product_media_532001-533000_1074087759.jpg</Image>
+    <Title>Polowanie</Title>
+    <Authors>
+      <Author>Paprocki Jacek</Author>
+    </Authors>
+    <Price>30,59</Price>
+  </Book>
+  <Book Category="Cat6" Id="10">
+    <Image>http://selkar.pl/img/imagecache/232001-233000/500x743_product_media_232001-233000_1063342652.jpg</Image>
+    <Title>Wiersze wybrane</Title>
+    <gatunek>Poezja</gatunek>
+    <Authors>
+      <Author>Szymborska Wisława</Author>
+    </Authors>
+    <Price>45,79</Price>
+  </Book>
+  <Book Category="Cat2" Id="11">
+    <Image>http://selkar.pl/img/imagecache/533001-534000/500x731_product_media_533001-534000_1074444367.jpg</Image>
+    <Title>Taniec ze smokami Tom 1</Title>
+    <Authors>
+      <Author>Martin George R.R.</Author>
+    </Authors>
+    <Price>46,59</Price>
+  </Book>
+  <Book Category="Cat2" Id="12">
+    <Image>http://selkar.pl/img/imagecache/533001-534000/500x731_product_media_533001-534000_1074447781.jpg</Image>
+    <Title>Taniec ze smokami Tom 2</Title>
+    <Authors>
+      <Author>Martin George R.R.</Author>
+    </Authors>
+    <Price>46,59</Price>
+  </Book>
+  <Book Category="Cat4" Id="13">
+    <Image>http://selkar.pl/img/imagecache/536001-537000/500x710_product_media_536001-537000_1074463589.jpg</Image>
+    <Title>Elvis. Człowiek, którego nigdy nie zapomnisz</Title>
+    <Authors>
+      <Author>Ogiegło Mariusz</Author>
+    </Authors>
+    <Price>26,79</Price>
+  </Book>
+  <Book Category="Cat6" Id="14">
+    <Image>http://selkar.pl/img/imagecache/537001-538000/500x724_product_media_537001-538000_1074476405.jpg</Image>
+    <Title>Czas równoległy </Title>
+    <Authors>
+      <Author>Mikłaszewicz Zdzisław</Author>
+    </Authors>
+    <Price>18,23</Price>
+  </Book>
+  <Book Category="Cat5" Id="15">
+    <Image>http://selkar.pl/img/imagecache/478001-479000/500x748_product_media_478001-479000_1070939540.jpg</Image>
+    <Title>Pustułka</Title>
+    <Authors>
+      <Author>Miszczuk Katarzyna Berenika</Author>
+    </Authors>
+    <Price>30,59</Price>
+  </Book>
+  <Book Category="Cat3" Id="16">
+    <Image>http://selkar.pl/img/imagecache/498001-499000/500x727_product_media_498001-499000_1072083001.jpg</Image>
+    <Title>Prawo administracyjne Podręcznik</Title>
+    <Authors>
+      <Author>Legierska Urszula</Author>
+    </Authors>
+    <Price>21,97</Price>
+  </Book>
+  <Book Category="Cat2" Id="17">
+    <Image>http://www.film.gildia.pl/_n_/literatura/tworcy/jacek_piekara/necrosis_przebudzenie/okladka-200.jpg</Image>
+    <Title>Necrosis. Przebudzenie</Title>
+    <Authors>
+      <Author>Jacek Piekara</Author>
+      <Author>Damian Kucharski</Author>
+    </Authors>
+    <Price>30,59</Price>
+  </Book>
 </Books>

@@ -4,9 +4,12 @@
     <siteMapNode url="TestForm.aspx" title="Strona główna"  description="">
     </siteMapNode>
     <siteMapNode url="ToDo.aspx" title="Kategorie"  description="">
-      <siteMapNode url="Browse.aspx?cat=Cat1" title="Kat1"  description="" />
-      <siteMapNode url="" title="Kat2"  description="" />
-      <siteMapNode url="" title="Kat3"  description="" />
+      <siteMapNode url="Browse.aspx?cat=Cat1" title="Psychologia"  description="" />
+      <siteMapNode url="Browse.aspx?cat=Cat2" title="Fantasy"  description="" />
+      <siteMapNode url="Browse.aspx?cat=Cat3" title="Podręczniki"  description="" />
+      <siteMapNode url="Browse.aspx?cat=Cat4" title="Biografie"  description="" />
+      <siteMapNode url="Browse.aspx?cat=Cat5" title="Kryminał i Sensacja"  description="" />
+      <siteMapNode url="Browse.aspx?cat=Cat6" title="Poezja"  description="" />
     </siteMapNode>
     <siteMapNode url="ToDo2.aspx" title="Polecane"  description="">
     </siteMapNode>

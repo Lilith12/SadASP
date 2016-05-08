@@ -7,10 +7,6 @@ background-color:white;
 margin: 0px,0px,0px,0px;
 }
 
-.thumbnail {
-    height: 200px;
-    width:200px;
-}
 
 table, th, td {
     border: 1px solid black;
@@ -60,20 +56,52 @@ table, th, td {
 
 }
 
-
 #content{
-    width: 100%;
+    width: 95%;
+    height: 100%;
+    float: left;
     margin: 0;
     padding: 0;
-    float: left;
     background-color: #C4C4C4;
     margin-left: 35%;
     margin-bottom: 4px;
 }
-.formButton{
+#content a{
+    text-decoration: none;
+    color:black;
+}
+.addToCartButton{
   display: inline-block;
   border-radius: 4px;
   background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  width: 15%;
+  height: 30px;
+  margin-left:50px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#books{
+    padding-left: 20px;
+    float: left;
+    width: 180px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
+#books img{
+    width: 167px;
+    height: 200px;
+}
+
+.formButton{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #008CBA;
   border: none;
   color: #FFFFFF;
   text-align: center;

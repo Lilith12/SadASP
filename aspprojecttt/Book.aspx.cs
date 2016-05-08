@@ -79,10 +79,10 @@ namespace aspprojecttt {
             String columnValue = node.InnerText;
             String translatedColumnName = translateColumnName(columnName);
 
-            String row = "<row>";
+            String row = "<tr>";
             row += "<td>" + translatedColumnName + "</td>";
             row += "<td>" + columnValue + "</td>";
-            row += "</row>";
+            row += "</tr>";
             return row;
         }
 

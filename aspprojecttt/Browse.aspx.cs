@@ -39,7 +39,7 @@ namespace aspprojecttt {
                     int bookId = int.Parse(node.Attributes["Id"].InnerText);
                     if (bookId >= minBookId && bookId <= maxBookId) {
                         String html;
-                        browseHtmlContent.Append("<div name=\"book\">");
+                        browseHtmlContent.Append("<div name=\"book\" id=\"books\">");
                         foreach (XmlNode childNode in node.ChildNodes) {
                             html = getHtmlForColumn(childNode, bookId);
                             browseHtmlContent.Append(html);
@@ -60,15 +60,15 @@ namespace aspprojecttt {
 
             switch (columnName) {
                 case "Image":
-                    valueHtml = "<img class=\"thumbnail\" src=\"" + columnValue + "\">";
+                    valueHtml = "<img src=\"" + columnValue + "\">";
                     valueHtml = getBookUrl(bookId, valueHtml);
                     break;
                 case "Title":
-                    valueHtml = "<b>" + columnValue + "</b>";
+                    valueHtml = "<br/> <b>" + columnValue + "</b>";
                     valueHtml = getBookUrl(bookId, valueHtml);
                     break;
                 case "Author":
-                    valueHtml = "<p>" + columnValue + "</p>";
+                    valueHtml = "<li><p>" + columnValue + "</p></li>";
                     break;
                 default:
                     valueHtml = "<p>" + columnValue + "</p>";

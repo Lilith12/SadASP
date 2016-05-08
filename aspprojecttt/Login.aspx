@@ -6,8 +6,8 @@
     <div>
     <ul class="szukajka">
                 <li><img src="logoKsiegarnia.png"  height="50" width="125"/></li>
-                <li><a class="active" href="Login.aspx"<>Logowanie</a></li>
-                <li><a href="Register.aspx"<>Rejestracja</a></li>
+                <li><a class="active" href="Login.aspx"<><span class="glyphicon glyphicon-log-in"></span> Logowanie</a></li>
+                <li><a href="Register.aspx"<><span class="glyphicon glyphicon-new-window"></span> Rejestracja</a></li>
                 <li><a href="#"<><span class="glyphicon glyphicon-shopping-cart"></span> Koszyk</a></li>
             </ul>
         <table>

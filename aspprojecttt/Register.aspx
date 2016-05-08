@@ -5,10 +5,16 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <ul class="szukajka">
                 <li><img src="logoKsiegarnia.png"  height="50" width="125"/></li>
-                <li><a href="Login.aspx"<>Logowanie</a></li>
-                <li><a class="active" href="Register.aspx"<>Rejestracja</a></li>
+                <li><a href="Login.aspx"<><span class="glyphicon glyphicon-log-in"></span> Logowanie</a></li>
+                <li><a class="active" href="Register.aspx"<><span class="glyphicon glyphicon-new-window"></span> Rejestracja</a></li>
                 <li><a href="#"<><span class="glyphicon glyphicon-shopping-cart"></span> Koszyk</a></li>
             </ul>
+    <asp:MultiView
+        id="MultiView1"
+        ActiveViewIndex="0"
+        Runat="server">
+        <asp:View ID="View1" runat="server" >
+           <h1>Dane ogólne</h1>
     <table>
         <tr>
             <td>Imie:
@@ -76,5 +82,53 @@
             </td>
         </tr>
     </table>
-    <asp:Button CssClass="formButton" ID="RegisterButton" runat="server" Text="Zarejestruj" OnClick="registerUser" />
-</asp:Content>
+    <asp:Button CssClass="formButton" ID="RegisterButton" runat="server" Text="Dalej" OnClick="changeView" />
+
+        </asp:View>        
+        <asp:View ID="View2" runat="server">
+                       <h1>Dane teleadresowe</h1>
+    <table>
+        <tr>
+            <td>Ulica:
+            </td>
+            <td>
+                <input type="text" runat="server" id="street" />
+            </td>
+        </tr>
+        <tr>
+            <td>Numer domu:
+            </td>
+            <td>
+                <input type="text" runat="server" id="address" />
+            </td>
+        </tr>
+        <tr>
+            <td>Kod pocztowy:
+            </td>
+            <td>
+                <input type="text" runat="server" id="postalCode" />
+            </td>
+        </tr>
+        <tr>
+            <td>Miejscowość:
+            </td>
+            <td>
+                <input type="text" runat="server" id="city" />
+            </td>
+        </tr>
+        <tr>
+            <td>Numer telefonu:
+            </td>
+            <td>
+                <input type="text" runat="server" id="phone" name="phoneField" />
+            </td>
+        </tr>
+    </table>
+    <asp:Button CssClass="formButton" ID="Button1" runat="server" Text="Dalej" OnClick="registerUser" />
+
+        </asp:View>        
+        <asp:View ID="View3" runat="server">
+            <h1>Dziękujemy za rejestrację! Możesz się teraz zalogować.</h1>
+        </asp:View>
+    </asp:MultiView>
+    </asp:Content>

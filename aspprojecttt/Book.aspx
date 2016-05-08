@@ -5,5 +5,5 @@
     <div id="display" runat="server">
         
     </div>
-    <asp:Button ID="addToCartButton" runat="server" Text="Dodaj do koszyka" OnClick="addToCart"/>
+    <asp:Button ID="addToCartButton" runat="server" Text="Dodaj do koszyka" OnClick="addToCart" CssClass="addToCartButton"/>
 </asp:Content>

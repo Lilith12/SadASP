@@ -10,3 +10,9 @@ C:\Users\honzik\Documents\SadASP\aspprojecttt\bin\aspprojecttt.pdb
 C:\Users\honzik\Documents\SadASP\aspprojecttt\obj\Debug\aspprojecttt.csprojResolveAssemblyReference.cache
 C:\Users\honzik\Documents\SadASP\aspprojecttt\obj\Debug\aspprojecttt.dll
 C:\Users\honzik\Documents\SadASP\aspprojecttt\obj\Debug\aspprojecttt.pdb
+H:\Pobrane\SadASP-master\SadASP-master\aspprojecttt\bin\aspprojecttt.dll.config
+H:\Pobrane\SadASP-master\SadASP-master\aspprojecttt\bin\aspprojecttt.dll
+H:\Pobrane\SadASP-master\SadASP-master\aspprojecttt\bin\aspprojecttt.pdb
+H:\Pobrane\SadASP-master\SadASP-master\aspprojecttt\obj\Debug\aspprojecttt.csprojResolveAssemblyReference.cache
+H:\Pobrane\SadASP-master\SadASP-master\aspprojecttt\obj\Debug\aspprojecttt.dll
+H:\Pobrane\SadASP-master\SadASP-master\aspprojecttt\obj\Debug\aspprojecttt.pdb

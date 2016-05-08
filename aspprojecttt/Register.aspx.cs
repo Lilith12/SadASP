@@ -13,7 +13,10 @@ namespace WebApplication1 {
         protected void Page_Load(object sender, EventArgs e) {
 
         }
-
+        public void changeView(Object sender, EventArgs e)
+        {
+            MultiView1.ActiveViewIndex++;
+        }
         public void registerUser(Object sender, EventArgs e) {
             if (Page.IsValid) {
                 //Pobranie wartosci z formy rejestracji
@@ -21,6 +24,11 @@ namespace WebApplication1 {
                 String surname = surnameField.Value;
                 String email = emailField.Value;
                 String password = passwordField.Value;
+                String streetU = street.Value;
+                String addressU = address.Value;
+                String postalCodeU = postalCode.Value;
+                String cityU = city.Value;
+                String phoneU = phone.Value;
 
                 //Wczytanie users.xml do dataset
                 DataSet ds = new DataSet();
@@ -63,6 +71,31 @@ namespace WebApplication1 {
                     surnameColumn.ColumnName = "UserSurname";
                     users.Columns.Add(surnameColumn);
 
+                    DataColumn streetColumn = new DataColumn();
+                    surnameColumn.DataType = System.Type.GetType("System.String");
+                    surnameColumn.ColumnName = "UserStreet";
+                    users.Columns.Add(streetColumn);
+
+                    DataColumn addressColumn = new DataColumn();
+                    surnameColumn.DataType = System.Type.GetType("System.String");
+                    surnameColumn.ColumnName = "UserAddress";
+                    users.Columns.Add(addressColumn);
+
+                    DataColumn postalCodeColumn = new DataColumn();
+                    surnameColumn.DataType = System.Type.GetType("System.String");
+                    surnameColumn.ColumnName = "UserPostalCode";
+                    users.Columns.Add(postalCodeColumn);
+
+                    DataColumn cityColumn = new DataColumn();
+                    surnameColumn.DataType = System.Type.GetType("System.String");
+                    surnameColumn.ColumnName = "UserCity";
+                    users.Columns.Add(cityColumn);
+
+                    DataColumn phoneColumn = new DataColumn();
+                    surnameColumn.DataType = System.Type.GetType("System.String");
+                    surnameColumn.ColumnName = "UserPhone";
+                    users.Columns.Add(phoneColumn);
+
                     ds.Tables.Add(users);
                 }
 
@@ -74,6 +107,12 @@ namespace WebApplication1 {
                     newUser["UserPassword"] = hashedPassword;
                     newUser["UserName"] = name;
                     newUser["UserSurname"] = surname;
+                    newUser["UserStreet"] = streetU;
+                    newUser["UserAddress"] = addressU;
+                    newUser["UserPostalCode"] = postalCodeU;
+                    newUser["UserCity"] = cityU;
+                    newUser["UserPhone"] = phoneU;
+
                     ds.Tables[0].Rows.Add(newUser);
                     ds.AcceptChanges();
 
@@ -89,6 +128,7 @@ namespace WebApplication1 {
             } else {
                 return;
             }
+            MultiView1.ActiveViewIndex++;
         }
 
         protected void TextBox1_TextChanged(object sender, EventArgs e) {
