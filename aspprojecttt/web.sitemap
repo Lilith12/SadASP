@@ -3,7 +3,7 @@
   <siteMapNode url="" title="Root"  description="">
     <siteMapNode url="TestForm.aspx" title="Strona główna"  description="">
     </siteMapNode>
-    <siteMapNode url="ToDo.aspx" title="Kategorie"  description="">
+    <siteMapNode url="AllBooks.aspx" title="Kategorie"  description="">
       <siteMapNode url="Browse.aspx?cat=Cat1" title="Psychologia"  description="" />
       <siteMapNode url="Browse.aspx?cat=Cat2" title="Fantasy"  description="" />
       <siteMapNode url="Browse.aspx?cat=Cat3" title="Podręczniki"  description="" />
@@ -11,7 +11,7 @@
       <siteMapNode url="Browse.aspx?cat=Cat5" title="Kryminał i Sensacja"  description="" />
       <siteMapNode url="Browse.aspx?cat=Cat6" title="Poezja"  description="" />
     </siteMapNode>
-    <siteMapNode url="ToDo2.aspx" title="Polecane"  description="">
+    <siteMapNode url="Recomendation.aspx" title="Polecane"  description="">
     </siteMapNode>
   </siteMapNode>
 </siteMap>

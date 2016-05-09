@@ -1,2 +1,13 @@
 <Users>
+  <User>
+    <UserEmail>kondzio1410@gmail.com</UserEmail>
+    <UserPassword>091AB7EE5151EC2F08D09588379BDEAD1EA34447</UserPassword>
+    <UserName>Konrad</UserName>
+    <UserSurname>Noskowicz</UserSurname>
+    <UserStreet>ul. Swietojanska 13/2 m.78</UserStreet>
+    <UserAddress>ul. Swietojanska 13/2 m.78</UserAddress>
+    <UserPostalCode>15-082</UserPostalCode>
+    <UserCity>Bialystok</UserCity>
+    <UserPhone>792178417</UserPhone>
+  </User>
 </Users>

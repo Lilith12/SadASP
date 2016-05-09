@@ -62,10 +62,12 @@
     <Content Include="Book.aspx" />
     <Content Include="Books.xml" />
     <Content Include="Browse.aspx" />
+    <Content Include="CartDisplay.aspx" />
     <Content Include="Fantasy.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Login.aspx" />
     <Content Include="logoKsiegarnia.png" />
+    <Content Include="Recomendation.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="StyleSheet1.css" />
     <Content Include="TestForm.aspx" />
@@ -95,6 +97,13 @@
     <Compile Include="Browse.aspx.designer.cs">
       <DependentUpon>Browse.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CartDisplay.aspx.cs">
+      <DependentUpon>CartDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CartDisplay.aspx.designer.cs">
+      <DependentUpon>CartDisplay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Fantasy.aspx.cs">
       <DependentUpon>Fantasy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -110,6 +119,13 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recomendation.aspx.cs">
+      <DependentUpon>Recomendation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recomendation.aspx.designer.cs">
+      <DependentUpon>Recomendation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
