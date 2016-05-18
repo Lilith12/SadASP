@@ -1,2 +1,2 @@
 # SadASP
-Prototype of eshop created with ASP .NET
+Prototype of book eshop created with ASP .NET
